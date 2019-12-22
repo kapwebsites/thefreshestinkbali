@@ -23,5 +23,21 @@ body{
 	font-size:24px;
 	padding:5px 15px;
 	margin:0px 2px;
+	text-decoration:none;
 	
 }
+
+.ctable{
+	margin-top:75;
+}
+.ctable td{
+	width:33%;
+}
+
+.ctable img{
+	
+}
+.ctable a{
+	text-decoration:none;
+}
+
