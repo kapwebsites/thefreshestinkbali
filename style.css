@@ -5,6 +5,24 @@ body{
 	font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+
+ 
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+   .topnav{
+	 visibility:hidden;
+  }
+    .content img{
+		width:100%;
+		margin-left:0;
+		margin-right:0;
+	}
+
+}
+
 .topnav{
 	
 }
@@ -41,6 +59,15 @@ body{
 	text-decoration:none;
 }
 
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  
+}
+
+
 .arrow-down-black {
   width: 0; 
   height: 0; 
@@ -72,6 +99,16 @@ body{
 	
 }
 .gitform input[type=text]{
+	background-color:transparent;
+	border:none;
+	border-bottom:1px solid #CCC;
+	outline:none;
+	font-size:24px;
+	color:#CCC;
+	width:38%;
+	
+}
+.gitform input[type=email]{
 	background-color:transparent;
 	border:none;
 	border-bottom:1px solid #CCC;
