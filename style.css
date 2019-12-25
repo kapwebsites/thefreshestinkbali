@@ -5,6 +5,43 @@ body{
 	font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 
+@media (min-width: 1281px){
+	 /* For Laptop, Deskop: */
+	 
+.titleimage{
+	position:absolute;
+	top:2.5%;
+	left:41.5%;
+}
+.content img{
+	 	margin-right:7%;
+		margin-left:75;
+	}
+	.content span{
+		margin-left:75;
+	}
+	
+.gitform{
+	
+}
+.gitform input[type=text]{
+	
+	font-size:24px;
+	width:38%;
+	
+}
+.gitform input[type=email]{
+
+	font-size:24px;
+	width:38%;
+	
+}
+.gitform textarea{
+	font-size:18px;
+	
+}
+}
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
 
@@ -15,11 +52,45 @@ body{
    .topnav{
 	 visibility:hidden;
   }
+  .titleimage{
+	  position:absolute;
+	top:2.5%;
+	left:25%;
+  }
     .content img{
-		width:100%;
-		margin-left:0;
-		margin-right:0;
+		width:90%;
+		margin-left:5%;
+		margin-right:5%;
+		margin-bottom:5%;
 	}
+	.content span{
+		margin-left:10;
+	}
+	.gallery{
+		visibility:hidden;
+		display:none;
+	}
+	
+.gitform{
+	
+}
+.gitform input[type=text]{
+	
+	font-size:18px;
+	width:38%;
+	
+}
+.gitform input[type=email]{
+
+	font-size:18px;
+	width:38%;
+	
+}
+.gitform textarea{
+	font-size:18px;
+	
+}
+	
 
 }
 
@@ -59,6 +130,30 @@ body{
 	text-decoration:none;
 }
 
+.gitform input[type=text]{
+	background-color:transparent;
+	border:none;
+	border-bottom:1px solid #CCC;
+	outline:none;
+	color:#CCC;
+
+}
+.gitform input[type=email]{
+	background-color:transparent;
+	border:none;
+	border-bottom:1px solid #CCC;
+	outline:none;
+	color:#CCC;
+	
+}
+.gitform textarea{
+	background-color:transparent;
+    border:1px solid #CCC;
+	outline:none;
+	color:#CCC;
+	
+}
+
 .arrow-down {
   width: 0; 
   height: 0; 
@@ -95,37 +190,6 @@ body{
   
 }
 
-.gitform{
-	
-}
-.gitform input[type=text]{
-	background-color:transparent;
-	border:none;
-	border-bottom:1px solid #CCC;
-	outline:none;
-	font-size:24px;
-	color:#CCC;
-	width:38%;
-	
-}
-.gitform input[type=email]{
-	background-color:transparent;
-	border:none;
-	border-bottom:1px solid #CCC;
-	outline:none;
-	font-size:24px;
-	color:#CCC;
-	width:38%;
-	
-}
-.gitform textarea{
-	background-color:transparent;
-    border:1px solid #CCC;
-	outline:none;
-	font-size:18px;
-	color:#CCC;
-	
-}
 .galleryimage{
 	background-position:0% 0%;
 	background-size:100% 100%;
