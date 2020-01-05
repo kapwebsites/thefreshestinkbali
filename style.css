@@ -133,7 +133,7 @@ body{
 .gitform input[type=text]{
 	background-color:transparent;
 	border:none;
-	border-bottom:1px solid #CCC;
+	border-bottom:1px solid #999;
 	outline:none;
 	color:#CCC;
 
@@ -141,14 +141,14 @@ body{
 .gitform input[type=email]{
 	background-color:transparent;
 	border:none;
-	border-bottom:1px solid #CCC;
+	border-bottom:1px solid #999;
 	outline:none;
 	color:#CCC;
 	
 }
 .gitform textarea{
 	background-color:transparent;
-    border:1px solid #CCC;
+    border:1px solid #999;
 	outline:none;
 	color:#CCC;
 	
