@@ -133,7 +133,7 @@ body{
 .gitform input[type=text]{
 	background-color:transparent;
 	border:none;
-	border-bottom:1px solid #666;
+	border-bottom:1px solid #000;
 	outline:none;
 	color:#CCC;
 
